@@ -3,7 +3,7 @@
 *This project implements a non-overlapping Moore finite state machine (FSM) 
 that detects the binary sequence “1010” on a serial input a.
 *Whenever this sequence appears, the FSM asserts the output signal y = 1.
-*It is a non-overlapping detector — meaning that after a valid detection, 
+               *It is a non-overlapping detector — meaning that after a valid detection, 
 the FSM restarts from the beginning of the sequence before recognizing a new one.
 
 //FSM Coding Style 1 
