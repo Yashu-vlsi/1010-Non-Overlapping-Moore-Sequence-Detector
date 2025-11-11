@@ -18,3 +18,10 @@ The third part is the output logic, which produces the FSM output. In a Moore FS
 In Coding Style 2, the FSM design uses two blocks instead of three.
 Sequential block for present state register.
 Combinational block that handles both next-state logic and output logic together.
+
+// FSM Coding Style 3 – Registered Output Moore FSM
+In this style, the FSM is implemented using three separate blocks:
+A sequential block to store the present state.
+A combinational block to determine the next state based on the current state and inputs.
+A sequential block to generate the registered output.
+The output is updated only on the clock edge.
